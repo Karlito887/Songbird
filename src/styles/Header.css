@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 60px;
+    padding-top: 16px;
+    color: white;
+    padding-right: 16px;
+}
+
+.header > p {
+    margin-top: 40px;
+}
+
+.logo {
+    width: 140px;
+}

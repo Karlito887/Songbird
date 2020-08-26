@@ -1,0 +1,42 @@
+.answers {
+    flex: 0.48;
+    background-color: #363636;
+    border-radius: 8px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #454545;
+    border-bottom: none;
+    color: white;
+}
+
+.answers > li {
+    cursor: pointer;
+    flex: auto;
+    border-bottom: 1px solid #454545;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+}
+
+.answers > li:hover {
+    background-color: #454545;
+}
+
+.answers__circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    margin-right: 16px;
+    background-color: #454545;
+}
+
+.green {
+    background-color: #69C473;
+}
+
+.red {
+    background-color: red;
+}
+

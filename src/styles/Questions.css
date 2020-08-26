@@ -1,0 +1,25 @@
+.questions {
+    width: 100%;
+    display: flex;
+    background-color: #69C473;
+    justify-content: space-around;
+    min-height: 32px;
+    margin-top: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.questions__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    color: white;
+    border: inherit;
+}
+
+.questions__item.active {
+    background-color: #33E967;
+
+}
